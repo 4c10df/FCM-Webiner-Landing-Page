@@ -1,0 +1,24 @@
+{
+  "name": "fcm-webiner-landing-page",
+  "version": "1.0.0",
+  "description": "\"FCM-Webiner-Landing-Page\"",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./main.css",
+    "watch": "npx tailwindcss -i ./input.css -o ./main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4c10df/FCM-Webiner-Landing-Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4c10df/FCM-Webiner-Landing-Page/issues"
+  },
+  "homepage": "https://github.com/4c10df/FCM-Webiner-Landing-Page#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}

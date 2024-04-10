@@ -1,0 +1,176 @@
+body{
+  
+    margin:auto;
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-optical-sizing: auto;
+    font-family: "IBM Plex Sans", sans-serif;
+  
+
+    
+}
+ 
+ 
+@import url(https://fonts.google.com/specimen/Space+Grotesk);
+ 
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* input{
+    border: 1px solid #C2C2C2;
+    background: var(--neutral-colors-color-300, #F9F9FF);
+    display: flex;
+    height: 51.09px;
+    padding: 12.075px 29.433px;
+    align-items: flex-start;
+    gap: 305.909px;
+    flex-shrink: 0;
+    border: #A6CE39;
+}
+*/
+input,
+input::-webkit-input-placeholder {
+  font-family: '"Montserrat", sans-serif';
+   font-size: 16px;
+   line-height:2;
+   color: #C4C4C4;
+}
+.fa-brands{
+    color: #B5B5B5;
+    font-size: 15px;
+}
+
+strong{
+    color: #38E427;
+}
+h6{
+    font-size: 30.87px;
+    line-height:33.1px;
+    font-weight: bold;
+    color: #B5B5B5;
+    text-transform: capitalize;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #637B61;
+    background: none;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%231d3f72" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-size: 16px;
+    font-size: 16px;
+    color: #C4C4C4;
+}
+
+
+input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #637B61;
+    background: none;
+}
+
+
+input[type="submit"]:hover {
+    background-color: #19A20C;
+}
+
+/* for tellphone css*/
+input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #637B61;
+    background: none;
+}
+.iti__selected-flag {
+    top: 15px;
+    height: 33px !important;
+    border-radius: 4px;
+    transition: .3s;
+    
+}
+input#phone {
+    padding-left: 47px !important;
+  	top: 6px;
+}  
+.intl-tel-input .flag-dropdown .selected-flag {
+  padding: 11px 16px 11px 6px;
+}
+.intl-tel-input {
+  z-index: 99;
+  width: 100%;
+}
+.iti-flag {
+  box-shadow: none;
+}
+.intl-tel-input .selected-flag:focus {
+  outline: none;
+}
+.iti--allow-dropdown .iti__flag-container:hover .iti__selected-flag {
+    background-color: rgba(0, 0, 0, 0.05);
+}  
+.iti--allow-dropdown input{
+    padding-right: 6px;
+    padding-left: 52px;
+    margin-left: 0;
+}
+.iti__country-list {
+    border-radius: 4px !important;
+    z-index: 999 !important;
+    box-shadow: 0 0 16px 0 rgb(0 0 0 / 8%) !important;
+    border: 1px solid #ececec !important;
+  	width: 270px !important;
+}
+.iti--allow-dropdown {
+    width: 100%;
+    
+}
+.iti__flag-container{
+    top: 8;
+}
+
+
+.iti-mobile .iti--container {
+    top: 30px;
+    bottom: 30px;
+    left: 627px;
+    right: 30px;
+    position: fixed;
+}
+/* ends for tellphone css*/
+
+
+.fa-solid{
+    font-size: 55.39px;
+    color: #fff;
+}
