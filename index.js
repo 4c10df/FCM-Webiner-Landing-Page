@@ -1,37 +1,3 @@
-// const navLinks = document.querySelector('.nav-links')
-//     function onToggleMenu(e) {
-//         e.name = e.name === 'menu' ? 'close' : 'menu'
-//         navLinks.classList.toggle('top-[-23px]')
-//     }
-
-    // function onToggleMenu(e){
-    //     let navLinks = document.querySelector('.nav-links');
-      
-    //     e.name === 'menu' ? (e.name = "close",navLinks.classList.
-    //     add('top-[-23px]') , navLinks.classList.add('opacity-100')
-    //     ) :( e.name = "menu" ,navLinks.classList.remove('top-[-23px]')
-    //     ,navLinks.classList.remove('opacity-100'))
-    // }
-
-   
-
-  //// bg color for nav  ////////
-function changeBg(){
-    var navbar = document.getElementById('navbar')
-    var scrollValue = window.scrollY;
-    
-    if(scrollValue < 100){
-        navbar.classList.remove('bgColor');
-    } else{
-        navbar.classList.add('bgColor');
-    }
-}
-
-window.addEventListener('scroll', changeBg)
-//// bg color for nav end ////////
-
-
-
 //// phone code for International telephone format
 
 // International telephone format
