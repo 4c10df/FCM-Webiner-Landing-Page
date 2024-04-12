@@ -666,8 +666,8 @@ video {
   right:0px;
 }
 
-.right-\[133px\]{
-  right:133px;
+.right-\[210px\]{
+  right:210px;
 }
 
 .top-\[-173px\]{
@@ -702,8 +702,12 @@ video {
   top:88px;
 }
 
-.right-\[210px\]{
-  right:210px;
+.right-\[211px\]{
+  right:211px;
+}
+
+.top-\[101px\]{
+  top:101px;
 }
 
 .z-\[2\]{
@@ -854,6 +858,10 @@ video {
   width:200px;
 }
 
+.w-\[302px\]{
+  width:302px;
+}
+
 .w-\[400px\]{
   width:400px;
 }
@@ -872,6 +880,10 @@ video {
 
 .w-full{
   width:100%;
+}
+
+.w-\[235px\]{
+  width:235px;
 }
 
 .cursor-pointer{
@@ -2101,10 +2113,6 @@ input#phone {
 }
 
 @media (min-width: 1536px){
-  .\32xl\:w-\[1200px\]{
-    width:1200px;
-  }
-
   .\32xl\:w-\[1300px\]{
     width:1300px;
   }
