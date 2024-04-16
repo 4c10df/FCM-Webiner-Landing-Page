@@ -1212,11 +1212,6 @@ video {
   padding-right:35px;
 }
 
-.px-\[52px\]{
-  padding-left:52px;
-  padding-right:52px;
-}
-
 .py-0{
   padding-top:0px;
   padding-bottom:0px;
@@ -1796,6 +1791,11 @@ input#phone {
   .sm\:px-0{
     padding-left:0px;
     padding-right:0px;
+  }
+
+  .sm\:px-\[52px\]{
+    padding-left:52px;
+    padding-right:52px;
   }
 
   .sm\:text-\[33px\]{
