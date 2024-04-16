@@ -1,6 +1,7 @@
-body{
+*{
   
-    margin:auto;
+    margin:0;
+    padding: 0;
     font-family: 'Fraunces', serif;
     font-family: 'Montserrat', sans-serif;
     color: #000;
@@ -48,16 +49,22 @@ strong{
     color: #38E427;
 }
 h6{
-    font-size: 30.87px;
+    font-size: 16px;
     line-height:33.1px;
     font-weight: bold;
     color: #B5B5B5;
     text-transform: capitalize;
+    padding-right: 5px;
+}
+li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
 }
 
 
 .form-group {
-    margin-bottom: 20px;
     position: relative;
 }
 
@@ -87,6 +94,7 @@ select {
     background-size: 16px;
     font-size: 16px;
     color: #C4C4C4;
+    height: 50px;
 }
 
 
@@ -99,9 +107,6 @@ input[type="submit"] {
 }
 
 
-input[type="submit"]:hover {
-    background-color: #19A20C;
-}
 
 /* for tellphone css*/
 input[type="tel"] {
@@ -120,7 +125,7 @@ input[type="tel"] {
 }
 input#phone {
     padding-left: 47px !important;
-  	top: 6px;
+  	
 }  
 .intl-tel-input .flag-dropdown .selected-flag {
   padding: 11px 16px 11px 6px;
@@ -155,9 +160,12 @@ input#phone {
     
 }
 .iti__flag-container{
-    top: 8;
+    top: -6px;
 }
 
+.iti--allow-dropdown .iti__flag-container{
+    top: -6px;
+}
 
 .iti-mobile .iti--container {
     top: 30px;
