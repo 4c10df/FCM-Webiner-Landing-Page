@@ -639,6 +639,10 @@ video {
   position:relative;
 }
 
+.bottom-0{
+  bottom:0px;
+}
+
 .bottom-\[-12px\]{
   bottom:-12px;
 }
@@ -779,6 +783,10 @@ video {
   margin-bottom:10px;
 }
 
+.mb-\[20\]{
+  margin-bottom:20;
+}
+
 .mb-\[20px\]{
   margin-bottom:20px;
 }
@@ -813,14 +821,6 @@ video {
 
 .mt-\[30px\]{
   margin-top:30px;
-}
-
-.mb-2{
-  margin-bottom:0.5rem;
-}
-
-.mb-\[20\]{
-  margin-bottom:20;
 }
 
 .block{
@@ -1440,6 +1440,10 @@ video {
   opacity:1;
 }
 
+.opacity-\[77\%\]{
+  opacity:77%;
+}
+
 .transition-all{
   transition-property:all;
   transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
@@ -1734,11 +1738,6 @@ input#phone {
     padding-right:0px;
   }
 
-  .sm\:px-\[42px\]{
-    padding-left:42px;
-    padding-right:42px;
-  }
-
   .sm\:text-\[33px\]{
     font-size:33px;
   }
@@ -1786,6 +1785,10 @@ input#phone {
     height:268.78px;
   }
 
+  .md\:h-\[800px\]{
+    height:800px;
+  }
+
   .md\:w-\[309\.19px\]{
     width:309.19px;
   }
@@ -1824,11 +1827,6 @@ input#phone {
 
   .md\:justify-between{
     justify-content:space-between;
-  }
-
-  .md\:px-\[42px\]{
-    padding-left:42px;
-    padding-right:42px;
   }
 
   .md\:px-\[70px\]{
@@ -1886,16 +1884,12 @@ input#phone {
     margin-bottom:0px;
   }
 
-  .silver\:w-\[418\.67px\]{
-    width:418.67px;
-  }
-
-  .silver\:w-\[455\.25px\]{
-    width:455.25px;
-  }
-
   .silver\:w-\[382\.25px\]{
     width:382.25px;
+  }
+
+  .silver\:w-\[418\.67px\]{
+    width:418.67px;
   }
 
   .silver\:grid-cols-2{
@@ -2011,16 +2005,16 @@ input#phone {
     width:437.76px;
   }
 
+  .lg\:w-\[464\.25px\]{
+    width:464.25px;
+  }
+
   .lg\:w-\[491\.48px\]{
     width:491.48px;
   }
 
   .lg\:w-\[500px\]{
     width:500px;
-  }
-
-  .lg\:w-\[543\.25px\]{
-    width:543.25px;
   }
 
   .lg\:w-\[561px\]{
@@ -2037,10 +2031,6 @@ input#phone {
 
   .lg\:w-\[699\.61px\]{
     width:699.61px;
-  }
-
-  .lg\:w-\[464\.25px\]{
-    width:464.25px;
   }
 
   .lg\:flex-row{
@@ -2138,16 +2128,12 @@ input#phone {
     width:498px;
   }
 
-  .xl\:w-\[577px\]{
-    width:577px;
-  }
-
-  .xl\:w-\[464\.25px\]{
-    width:464.25px;
-  }
-
   .xl\:w-\[542\.25px\]{
     width:542.25px;
+  }
+
+  .xl\:w-\[577px\]{
+    width:577px;
   }
 
   .xl\:pt-\[89px\]{
@@ -2178,30 +2164,6 @@ input#phone {
 
   .\32xl\:w-\[1200px\]{
     width:1200px;
-  }
-
-  .\32xl\:w-\[1446px\]{
-    width:1446px;
-  }
-
-  .\32xl\:w-\[1px\]{
-    width:1px;
-  }
-
-  .\32xl\:w-\[1\]{
-    width:1;
-  }
-
-  .\32xl\:w-\[1200p\]{
-    width:1200p;
-  }
-
-  .\32xl\:w-\[120px\]{
-    width:120px;
-  }
-
-  .\32xl\:w-\[12\]{
-    width:12;
   }
 
   .\32xl\:pl-\[70px\]{
