@@ -2,8 +2,6 @@
   
     margin:0;
     padding: 0;
-    font-family: 'Fraunces', serif;
-    font-family: 'Montserrat', sans-serif;
     color: #000;
     font-optical-sizing: auto;
     font-family: "IBM Plex Sans", sans-serif;
@@ -35,7 +33,7 @@
 */
 input,
 input::-webkit-input-placeholder {
-  font-family: '"Montserrat", sans-serif';
+   font-family: "IBM Plex Sans", sans-serif;
    font-size: 16px;
    line-height:2;
    color: #C4C4C4;
@@ -52,7 +50,7 @@ h6{
     font-size: 16px;
     line-height:33.1px;
     font-weight: bold;
-    color: #B5B5B5;
+    color: #4F4F4F;
     text-transform: capitalize;
     padding-right: 5px;
 }
