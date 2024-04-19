@@ -721,6 +721,10 @@ video {
   top:88px;
 }
 
+.left-\[15px\]{
+  left:15px;
+}
+
 .z-10{
   z-index:10;
 }
