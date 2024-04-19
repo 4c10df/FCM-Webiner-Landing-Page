@@ -669,6 +669,10 @@ video {
   left:136px;
 }
 
+.left-\[15px\]{
+  left:15px;
+}
+
 .right-\[-196px\]{
   right:-196px;
 }
@@ -719,10 +723,6 @@ video {
 
 .top-\[88px\]{
   top:88px;
-}
-
-.left-\[15px\]{
-  left:15px;
 }
 
 .z-10{
@@ -791,6 +791,11 @@ video {
   margin-bottom:30px;
 }
 
+.my-\[35px\]{
+  margin-top:35px;
+  margin-bottom:35px;
+}
+
 .my-\[48px\]{
   margin-top:48px;
   margin-bottom:48px;
@@ -819,10 +824,6 @@ video {
 
 .mb-\[30px\]{
   margin-bottom:30px;
-}
-
-.mb-\[35px\]{
-  margin-bottom:35px;
 }
 
 .mb-\[50px\]{
@@ -1945,10 +1946,6 @@ input#phone {
 }
 
 @media (min-width: 950px){
-  .silver\:left-\[15px\]{
-    left:15px;
-  }
-
   .silver\:left-\[22px\]{
     left:22px;
   }
@@ -2248,6 +2245,30 @@ input#phone {
     right:0px;
   }
 
+  .\32xl\:left-\[\]{
+    left:;
+  }
+
+  .\32xl\:left-\[-22px\]{
+    left:-22px;
+  }
+
+  .\32xl\:top-\[\]{
+    top:;
+  }
+
+  .\32xl\:top-\[5\]{
+    top:5;
+  }
+
+  .\32xl\:top-\[-56\]{
+    top:-56;
+  }
+
+  .\32xl\:top-\[-56px\]{
+    top:-56px;
+  }
+
   .\32xl\:w-\[1079px\]{
     width:1079px;
   }
@@ -2256,7 +2277,25 @@ input#phone {
     width:1200px;
   }
 
-  .\32xl\:pl-\[70px\]{
+  .\32xl\:overflow-y-auto{
+    overflow-y:auto;
+  }
+
+  .\32xl\:overflow-x-hidden{
+    overflow-x:hidden;
+  }
+
+  .\32xl\:rounded-r-\[40px\]{
+    border-top-right-radius:40px;
+    border-bottom-right-radius:40px;
+  }
+
+  .\32xl\:border-r-\[1px\]{
+    border-right-width:1px;
+  }
+
+  .\32xl\:px-\[70px\]{
     padding-left:70px;
+    padding-right:70px;
   }
 }
