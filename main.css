@@ -834,6 +834,10 @@ video {
   margin-bottom:70px;
 }
 
+.mr-3{
+  margin-right:0.75rem;
+}
+
 .mr-\[10px\]{
   margin-right:10px;
 }
@@ -1571,6 +1575,7 @@ li{
 
 .form-group {
   position: relative;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 label {

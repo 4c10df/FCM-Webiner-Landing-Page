@@ -387,7 +387,7 @@
                         </div>
                     
                         <div class="relative w-full h-auto">
-                            <form class="w-full h-auto" action="#" method="#" id="contactForm" onsubmit="return validateForm()">
+                            <!-- <form class="w-full h-auto" action="#" method="#" id="contactForm" onsubmit="return validateForm()">
 
                                 <div class="w-full grid sm:grid-cols-2 gap-y-5 gap-x-5 mb-[10px]">
                                     <div class="form-group">
@@ -437,7 +437,111 @@
                                         <img class="relative smipx:left-[-2px] sm:left-[51px] silver:left-[68px] lg:left-[51px] xl:left-[71px] top-[31px]" src="image/Group 87.png" alt="arrow">
                                     </div>
                                 </div>
-                            </form>       
+                            </form>       -->
+                            <form class="w-full h-auto" action='https://forms.zohopublic.com/finchglowholdings1/form/FCMWebinar/formperma/SQbm7y5r9NbdT3qzWM0fNxISqbJos_JjvJdIsiyOYjo/htmlRecords/submit' onsubmit="return validateForm()" name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
+
+                                <input type="hidden" name="zf_referrer_name" value=""><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
+                                <input type="hidden" name="zf_redirect_url" value=""><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
+                                <input type="hidden" name="zc_gad" value=""><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
+                                <!-- <h2>FCM Webinar</h2>
+                                <p></p> -->
+                                <div class="w-full grid sm:grid-cols-2 gap-y-5 gap-x-5 mb-[10px]">
+                                    <div class="form-group">
+                                        <!--Name-->
+                                        <label class="text-[#C4C4C4]">Surname</label>
+                                        <input type="text" maxlength="255" name="Name_surname" fieldType=7 placeholder="Surname" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="text-[#C4C4C4]">First Name</label>
+                                        <input type="text" maxlength="255" name="Name_First" fieldType=7 placeholder="First Name" />
+                                    </div>
+                                </div>
+                        
+                                <div class="w-full grid sm:grid-cols-2 gap-y-5 gap-x-5 mb-[10px]">
+                                    
+                                    <div class="form-group">
+                                        <label class="text-[#C4C4C4]">Last Name</label>
+                                        <input type="text" maxlength="255" name="Name_Last" fieldType=7 placeholder="Last Name" />
+                                    </div>
+
+                                    <div class="form-group">
+                                        <!--Single Line-->
+                                        <label class="text-[#C4C4C4]">Company</label>
+                                        <input  type="text" name="SingleLine" value="" fieldType=1 maxlength="255" placeholder="Company&#x20;Name" />
+                                    </div>
+                                </div>
+                                
+                                <div class="w-full grid sm:grid-cols-2 gap-y-5 gap-x-5 mb-[10px]">
+                                    
+                                    <div class="form-group"> 
+                                        <!--Email-->
+                                        <label class="text-[#C4C4C4]"> Work Email 
+                                        <em></em>
+                                        </label>
+                                        <input type="text" maxlength="255" name="Email" value="" fieldType=9 placeholder="Your&#x20;Email" />
+                                        <!--Email-->
+                                    </div>
+                                    <div class="form-group">
+                                        <!--Single Line-->
+                                        <label class="text-[#C4C4C4]">Location</label>
+                                        <input  type="text" name="SingleLine1" value="" fieldType=1 maxlength="255" placeholder="City&#x20;or&#x20;State" />
+                                    </div>
+                                </div>
+                        
+                                <div class="w-full grid sm:grid-cols-2 gap-y-5 gap-x-5 mb-[10px]">
+                                    
+                                    <!-- <div class="form-group">
+                                        <!--Phone--
+                                        <label class="text-[#C4C4C4]">Phone Number<em></em></label>
+                                        <div class="relative flex">
+                                            <div style="width: 166px;">
+                                                <input type="text" compname="PhoneNumber_countrycodeval" name="PhoneNumber_countrycodeval" phoneFormat="1" maxlength="10"  id="international_PhoneNumber_countrycodeval" placeholder=""/>
+                                                <!-- <label>Code</label>  --
+                                            </div>
+                                            <input type="text" compname="PhoneNumber" name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=true maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" placeholder="phone number" />
+                                            <!-- <label>Number</label>  --
+                                        </div>
+                                    </div>  -->
+                                    
+                                    <div class="form-group">
+                                        <label class="text-[#C4C4C4]" for="telephone">Phone Number</label>
+                                        <input type="tel" id="international_PhoneNumber_countrycode" placeholder="" name="telephone">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <!--Dropdown-->
+                                        <label class="text-[#C4C4C4]">Category<em></em></label>
+                                        <select name="Dropdown">
+                                        <option selected="true" value="-Select-">Please select the category that best describes you</option>
+                                        <option value="Procurement&#x20;Officer&#x2f;Executives">Procurement Officer&#x2f;Executives</option>
+                                        <option value="Corporate&#x20;Traveller">Corporate Traveller</option>
+                                        <option value="Decision&#x20;Maker&#x2f;Stakeholders">Decision Maker&#x2f;Stakeholders</option>
+                                        <option value="Business&#x20;Professionals">Business Professionals</option>
+                                        </select>
+                                    </div>
+                                </div>
+                        
+                                
+                        
+                                <div class="form-group flex ">
+                                    <!--Decision Box-->
+                                <input class="mr-3" type="checkbox" id="DecisionBox" name="DecisionBox"/>
+                                <label class="text-[#C4C4C4]" for="DecisionBox"> I agree to the terms and conditions
+                                <em>*</em>
+                                </label>
+                                </div>
+                                
+                        
+                                <div class="form-group flex justify-between items-center w-full">
+                                    <input class="hover:bg-[#505050] hover:border-[#19A20C] hover:border-[2px] hover:text-[#38E427]" type="submit" value="Get Started">
+                                    <div class="relative left-[136px]">
+                                        <img class="relative smipx:left-[-2px] sm:left-[51px] silver:left-[68px] lg:left-[51px] xl:left-[71px] top-[31px]" src="image/Group 87.png" alt="arrow">
+                                    </div>
+                                </div>
+                        
+                                
+                                <!-- <button type="submit"><em>Submit</em></button> -->
+                            </form>
                         </div>
 
                     </div>
@@ -730,7 +834,7 @@
                         </div>
                     
                         <div class="relative w-full h-auto">
-                            <form class="w-full h-auto" action="#" method="#" id="contactForm" onsubmit="return validateForm()">
+                            <!-- <form class="w-full h-auto" action="#" method="#" id="contactForm" onsubmit="return validateForm()">
 
                                 <div class="w-full grid sm:grid-cols-2 gap-y-5 gap-x-5 mb-[10px]">
                                     <div class="form-group">
@@ -780,7 +884,111 @@
                                         <img class="relative smipx:left-[-2px] sm:left-[51px] silver:left-[68px] lg:left-[51px] xl:left-[71px] top-[31px]" src="image/Group 87.png" alt="arrow">
                                     </div>
                                 </div>
-                            </form>       
+                            </form>   -->
+                            <form class="w-full h-auto" action='https://forms.zohopublic.com/finchglowholdings1/form/FCMWebinar/formperma/SQbm7y5r9NbdT3qzWM0fNxISqbJos_JjvJdIsiyOYjo/htmlRecords/submit' onsubmit="return validateForm()" name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
+
+                                <input type="hidden" name="zf_referrer_name" value=""><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
+                                <input type="hidden" name="zf_redirect_url" value=""><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
+                                <input type="hidden" name="zc_gad" value=""><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
+                                <!-- <h2>FCM Webinar</h2>
+                                <p></p> -->
+                                <div class="w-full grid sm:grid-cols-2 gap-y-5 gap-x-5 mb-[10px]">
+                                    <div class="form-group">
+                                        <!--Name-->
+                                        <label class="text-[#C4C4C4]">Surname</label>
+                                        <input type="text" maxlength="255" name="Name_surname" fieldType=7 placeholder="Surname" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="text-[#C4C4C4]">First Name</label>
+                                        <input type="text" maxlength="255" name="Name_First" fieldType=7 placeholder="First Name" />
+                                    </div>
+                                </div>
+                        
+                                <div class="w-full grid sm:grid-cols-2 gap-y-5 gap-x-5 mb-[10px]">
+                                    
+                                    <div class="form-group">
+                                        <label class="text-[#C4C4C4]">Last Name</label>
+                                        <input type="text" maxlength="255" name="Name_Last" fieldType=7 placeholder="Last Name" />
+                                    </div>
+
+                                    <div class="form-group">
+                                        <!--Single Line-->
+                                        <label class="text-[#C4C4C4]">Company</label>
+                                        <input  type="text" name="SingleLine" value="" fieldType=1 maxlength="255" placeholder="Company&#x20;Name" />
+                                    </div>
+                                </div>
+                                
+                                <div class="w-full grid sm:grid-cols-2 gap-y-5 gap-x-5 mb-[10px]">
+                                    
+                                    <div class="form-group"> 
+                                        <!--Email-->
+                                        <label class="text-[#C4C4C4]"> Work Email 
+                                        <em></em>
+                                        </label>
+                                        <input type="text" maxlength="255" name="Email" value="" fieldType=9 placeholder="Your&#x20;Email" />
+                                        <!--Email-->
+                                    </div>
+                                    <div class="form-group">
+                                        <!--Single Line-->
+                                        <label class="text-[#C4C4C4]">Location</label>
+                                        <input  type="text" name="SingleLine1" value="" fieldType=1 maxlength="255" placeholder="City&#x20;or&#x20;State" />
+                                    </div>
+                                </div>
+                        
+                                <div class="w-full grid sm:grid-cols-2 gap-y-5 gap-x-5 mb-[10px]">
+                                    
+                                    <!-- <div class="form-group">
+                                        <!--Phone--
+                                        <label class="text-[#C4C4C4]">Phone Number<em></em></label>
+                                        <div class="relative flex">
+                                            <div style="width: 166px;">
+                                                <input type="text" compname="PhoneNumber_countrycodeval" name="PhoneNumber_countrycodeval" phoneFormat="1" maxlength="10"  id="international_PhoneNumber_countrycodeval" placeholder=""/>
+                                                <!-- <label>Code</label>  --
+                                            </div>
+                                            <input type="text" compname="PhoneNumber" name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=true maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" placeholder="phone number" />
+                                            <!-- <label>Number</label>  --
+                                        </div>
+                                    </div>  -->
+                                    
+                                    <div class="form-group">
+                                        <label class="text-[#C4C4C4]" for="telephone">Phone Number</label>
+                                        <input type="tel" id="international_PhoneNumber_countrycode" placeholder="" name="telephone">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <!--Dropdown-->
+                                        <label class="text-[#C4C4C4]">Category<em></em></label>
+                                        <select name="Dropdown">
+                                        <option selected="true" value="-Select-">Please select the category that best describes you</option>
+                                        <option value="Procurement&#x20;Officer&#x2f;Executives">Procurement Officer&#x2f;Executives</option>
+                                        <option value="Corporate&#x20;Traveller">Corporate Traveller</option>
+                                        <option value="Decision&#x20;Maker&#x2f;Stakeholders">Decision Maker&#x2f;Stakeholders</option>
+                                        <option value="Business&#x20;Professionals">Business Professionals</option>
+                                        </select>
+                                    </div>
+                                </div>
+                        
+                                
+                        
+                                <div class="form-group flex ">
+                                    <!--Decision Box-->
+                                <input class="mr-3" type="checkbox" id="DecisionBox" name="DecisionBox"/>
+                                <label class="text-[#C4C4C4]" for="DecisionBox"> I agree to the terms and conditions
+                                <em>*</em>
+                                </label>
+                                </div>
+                                
+                        
+                                <div class="form-group flex justify-between items-center w-full">
+                                    <input class="hover:bg-[#505050] hover:border-[#19A20C] hover:border-[2px] hover:text-[#38E427]" type="submit" value="Get Started">
+                                    <div class="relative left-[136px]">
+                                        <img class="relative smipx:left-[-2px] sm:left-[51px] silver:left-[68px] lg:left-[51px] xl:left-[71px] top-[31px]" src="image/Group 87.png" alt="arrow">
+                                    </div>
+                                </div>
+                        
+                                
+                                <!-- <button type="submit"><em>Submit</em></button> -->
+                            </form>     
                         </div>
 
                     </div>
