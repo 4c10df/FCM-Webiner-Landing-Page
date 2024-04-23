@@ -1,2 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,300&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:wght@100;400;700;800&family=Nunito:wght@700&family=Red+Hat+Display&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/38e77e8a43.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css" crossorigin="anonymous" />
 
+</head>
+<body>
+ <!--Zoho Campaigns Web-Optin Form Starts Here-->
 
+<div id="customForm">
+	<div class="quick_form_9_css" name="SIGNUP_BODY">
+		<div>
+			<div id="SIGNUP_HEADING"></div>
+			<div style="position:relative;">
+				<div id="Zc_SignupSuccess" style="display:none;position:absolute;margin-left:4%;width:90%;background-color: white; padding: 3px; border: 3px solid rgb(194, 225, 154);  margin-top: 10px;margin-bottom:10px;word-break:break-all ">
+					<table width="100%" cellpadding="0" cellspacing="0" border="0">
+						<tbody>
+							<tr>
+								<td width="10%">
+									<img class="successicon" src="https://vkqvt-zgpvh.maillist-manage.net/images/challangeiconenable.jpg" align="absmiddle">
+								</td>
+								<td>
+									<span id="signupSuccessMsg" style="color: rgb(73, 140, 132); font-family: sans-serif; font-size: 14px;word-break:break-word">&nbsp;&nbsp;Thank you for Signing Up</span>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<form method="POST" id="zcampaignOptinForm" action="https://vkqvt-zgpvh.maillist-manage.net/weboptin.zc" target="_zcSignup" onsubmit="zcScptlessSubmit(this)">
+				<div id="errorMsgDiv">Please correct the marked field(s) below.</div>
+				<div class="SIGNUP_FLD">
+					<input type="text" placeholder="Enter your email" changeitem="SIGNUP_FORM_FIELD" name="CONTACT_EMAIL" id="EMBED_FORM_EMAIL_LABEL" autocomplete="off">
+				</div>
+				<div class="SIGNUP_FLD">
+					<input type="submit" name="SIGNUP_SUBMIT_BUTTON" id="zcWebOptin" value="Join Now">
+				</div>
+				<input type="hidden" id="fieldBorder" value="">
+				<input type="hidden" id="submitType" name="submitType" value="optinCustomView">
+				<input type="hidden" id="emailReportId" name="emailReportId" value="">
+				<input type="hidden" id="formType" name="formType" value="QuickForm">
+				<input type="hidden" name="zx" id="cmpZuid" value="12f60bbd1">
+				<input type="hidden" name="zcvers" value="3.0">
+				<input type="hidden" name="oldListIds" id="allCheckedListIds" value="">
+				<input type="hidden" id="mode" name="mode" value="OptinCreateView">
+				<input type="hidden" id="zcld" name="zcld" value="1e2e7c734684c981">
+				<input type="hidden" id="zctd" name="zctd" value="1e2e7c73462bdbe1">
+				<input type="hidden" id="document_domain" value="">
+				<input type="hidden" id="zc_Url" value="vkqvt-zgpvh.maillist-manage.net">
+				<input type="hidden" id="new_optin_response_in" value="0">
+				<input type="hidden" id="duplicate_optin_response_in" value="0">
+				<input type="hidden" name="zc_trackCode" id="zc_trackCode" value="ZCFORMVIEW">
+				<input type="hidden" id="zc_formIx" name="zc_formIx" value="3z0bf2dec54051c445b7a9122b31d7dd6c91514688cfb97cdd456f057973c316a2">
+				<input type="hidden" id="viewFrom" value="URL_ACTION">
+				<input type="hidden" id="scriptless" name="scriptless" value="yes">
+				<input type="hidden" id="zc_spmSubmit" name="zc_spmSubmit" value="ZCSPMSUBMIT">
+			</form>
+		</div>
+	</div>
+</div>
+<div id="zcOptinOverLay" oncontextmenu="return false" style="display:none;text-align: center; background-color: rgb(0, 0, 0); opacity: 0.5; z-index: 100; position: fixed; width: 100%; top: 0px; left: 0px; height: 988px;"></div>
+<div id="zcOptinSuccessPopup" style="display:none;z-index: 9999;width: 800px; height: 40%;top: 84px;position: fixed; left: 26%;background-color: #FFFFFF;border-color: #E6E6E6; border-style: solid; border-width: 1px;  box-shadow: 0 1px 10px #424242;padding: 35px;">
+	<span style="position: absolute;top: -16px;right:-14px;z-index:99999;cursor: pointer;" id="closeSuccess">
+		<img src="https://vkqvt-zgpvh.maillist-manage.net/images/videoclose.png">
+	</span>
+	<div id="zcOptinSuccessPanel"></div>
+</div>
+<script>
+	function zcScptlessSubmit(parentNode){
+		if(parentNode.querySelector("#zc_spmSubmit")){parentNode.querySelector("#zc_spmSubmit").remove();}parentNode.submit();
+	}
+</script>
+<!--Zoho Campaigns Web-Optin Form Ends Here-->
+</body>
+</html>

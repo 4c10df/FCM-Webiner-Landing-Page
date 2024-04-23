@@ -862,6 +862,10 @@ video {
   display:flex;
 }
 
+.table{
+  display:table;
+}
+
 .grid{
   display:grid;
 }
@@ -1066,6 +1070,10 @@ video {
   border-top-right-radius:40px;
 }
 
+.border{
+  border-width:1px;
+}
+
 .border-\[2px\]{
   border-width:2px;
 }
@@ -1154,6 +1162,10 @@ video {
 .bg-\[\#F1F1F1\]{
   --tw-bg-opacity:1;
   background-color:rgb(241 241 241 / var(--tw-bg-opacity));
+}
+
+.bg-meta{
+  background-color:rgb(22 21 21 / 63%);
 }
 
 .bg-white{

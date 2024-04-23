@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FCM</title>
     <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -446,33 +446,19 @@
                                 <!-- <h2>FCM Webinar</h2>
                                 <p></p> -->
                                 <div class="w-full grid sm:grid-cols-2 gap-y-5 gap-x-5 mb-[10px]">
-                                    <div class="form-group">
-                                        <!--Name-->
-                                        <label class="text-[#C4C4C4]">Surname</label>
-                                        <input type="text" maxlength="255" name="Name_surname" fieldType=7 placeholder="Surname" />
-                                    </div>
+    
                                     <div class="form-group">
                                         <label class="text-[#C4C4C4]">First Name</label>
                                         <input type="text" maxlength="255" name="Name_First" fieldType=7 placeholder="First Name" />
                                     </div>
-                                </div>
-                        
-                                <div class="w-full grid sm:grid-cols-2 gap-y-5 gap-x-5 mb-[10px]">
-                                    
                                     <div class="form-group">
                                         <label class="text-[#C4C4C4]">Last Name</label>
                                         <input type="text" maxlength="255" name="Name_Last" fieldType=7 placeholder="Last Name" />
                                     </div>
 
-                                    <div class="form-group">
-                                        <!--Single Line-->
-                                        <label class="text-[#C4C4C4]">Company</label>
-                                        <input  type="text" name="SingleLine" value="" fieldType=1 maxlength="255" placeholder="Company&#x20;Name" />
-                                    </div>
                                 </div>
-                                
+                        
                                 <div class="w-full grid sm:grid-cols-2 gap-y-5 gap-x-5 mb-[10px]">
-                                    
                                     <div class="form-group"> 
                                         <!--Email-->
                                         <label class="text-[#C4C4C4]"> Work Email 
@@ -481,44 +467,47 @@
                                         <input type="text" maxlength="255" name="Email" value="" fieldType=9 placeholder="Your&#x20;Email" />
                                         <!--Email-->
                                     </div>
+
+                                    <div class="form-group">
+                                        <!--Phone-->
+                                        <label class="text-[#C4C4C4]">Phone Number<em></em></label>
+                                        <div class="relative flex">
+                                            <div style="width: 80px; padding-right: 8px;">
+                                                <input type="text" compname="PhoneNumber_countrycodeval" name="PhoneNumber_countrycodeval" phoneFormat="1" maxlength="10"  id="international_PhoneNumber_countrycodeval" placeholder="+234"/>
+                                                <!-- <label>Code</label>  -->
+                                            </div>
+                                            <input type="text" compname="PhoneNumber" name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=true maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" placeholder="phone number" />
+                                            <!-- <label>Number</label>  -->
+                                        </div>
+                                    </div>  
+                                    
+                                </div>
+                                
+                                <div class="w-full grid sm:grid-cols-2 gap-y-5 gap-x-5 mb-[10px]">
+                                    
+                                    <div class="form-group">
+                                        <!--Single Line-->
+                                        <label class="text-[#C4C4C4]">Company</label>
+                                        <input  type="text" name="SingleLine" value="" fieldType=1 maxlength="255" placeholder="Company&#x20;Name" />
+                                    </div>
                                     <div class="form-group">
                                         <!--Single Line-->
                                         <label class="text-[#C4C4C4]">Location</label>
                                         <input  type="text" name="SingleLine1" value="" fieldType=1 maxlength="255" placeholder="City&#x20;or&#x20;State" />
                                     </div>
                                 </div>
-                        
-                                <div class="w-full grid sm:grid-cols-2 gap-y-5 gap-x-5 mb-[10px]">
                                     
-                                    <!-- <div class="form-group">
-                                        <!--Phone--
-                                        <label class="text-[#C4C4C4]">Phone Number<em></em></label>
-                                        <div class="relative flex">
-                                            <div style="width: 166px;">
-                                                <input type="text" compname="PhoneNumber_countrycodeval" name="PhoneNumber_countrycodeval" phoneFormat="1" maxlength="10"  id="international_PhoneNumber_countrycodeval" placeholder=""/>
-                                                <!-- <label>Code</label>  --
-                                            </div>
-                                            <input type="text" compname="PhoneNumber" name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=true maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" placeholder="phone number" />
-                                            <!-- <label>Number</label>  --
-                                        </div>
-                                    </div>  -->
-                                    
-                                    <div class="form-group">
-                                        <label class="text-[#C4C4C4]" for="telephone">Phone Number</label>
-                                        <input type="tel" id="international_PhoneNumber_countrycode" placeholder="" name="telephone">
-                                    </div>
-
-                                    <div class="form-group">
-                                        <!--Dropdown-->
-                                        <label class="text-[#C4C4C4]">Category<em></em></label>
-                                        <select name="Dropdown">
-                                        <option selected="true" value="-Select-">Please select the category that best describes you</option>
-                                        <option value="Procurement&#x20;Officer&#x2f;Executives">Procurement Officer&#x2f;Executives</option>
-                                        <option value="Corporate&#x20;Traveller">Corporate Traveller</option>
-                                        <option value="Decision&#x20;Maker&#x2f;Stakeholders">Decision Maker&#x2f;Stakeholders</option>
-                                        <option value="Business&#x20;Professionals">Business Professionals</option>
-                                        </select>
-                                    </div>
+                                
+                                <div class="form-group mb-[10px]">
+                                    <!--Dropdown-->
+                                    <label class="text-[#C4C4C4]">Category<em></em></label>
+                                    <select name="Dropdown">
+                                    <option selected="true" value="-Select-">Please select the category that best describes you</option>
+                                    <option value="Procurement&#x20;Officer&#x2f;Executives">Procurement Officer&#x2f;Executives</option>
+                                    <option value="Corporate&#x20;Traveller">Corporate Traveller</option>
+                                    <option value="Decision&#x20;Maker&#x2f;Stakeholders">Decision Maker&#x2f;Stakeholders</option>
+                                    <option value="Business&#x20;Professionals">Business Professionals</option>
+                                    </select>
                                 </div>
                         
                                 
@@ -615,7 +604,7 @@
                             </div>
                         </div>
                         
-                        <div class="flex flex-col justify-center items-center px-[15px] py-[60px] md:px-[95px] w-full opacity-[65%] bg-[#161515]">
+                        <div class="flex flex-col justify-center items-center px-[15px] py-[60px] md:px-[95px] w-full  bg-meta">
 
                             <div class="mb-[30px] text-left w-full ">
                                 <h3 class="relative  text-white text-[34.51px] font-medium mb-[10px]">Who We Are</h3>
@@ -705,7 +694,7 @@
 
                             <div class="relative w-full silver:pt-[37px] xl:pt-[89px] overflow-hidden z-[3] opacity-[100%]">
                     
-                                <div class="relative flex flex-col silver:flex-row silver:justify-between w-full h-auto lg:h-[376.48px] xl:h-[269.48] items-center content-center rounded-[40px] z-[888]
+                                <div class="relative flex flex-col silver:flex-row silver:justify-between w-full h-auto lg:h-[376.48px] xl:h-[269.48] items-center content-center rounded-[40px] z-[3]
                                    bg-[#2B2A2A] px-[20px] pt-[20px] silver:pl-[47px]  overflow-hidden lg:overflow-visible">
                                     <div class="static w-full lg:w-[398px] mb-[10px] silver:mb-0">
                                         <p class="font-semibold text-[#BEBEBE] text-[20px] md:text-[30px]
@@ -717,7 +706,7 @@
                                             Let’s talk everything travel.
                                         </h2>
                                         
-                                        <a href="#" class="bg-[#38E427] text-[#000000] text-[16px] font-semibold w-full 
+                                        <a href="https://www.fcmtravel.com/en/contact/enquiry" class="bg-[#38E427] text-[#000000] text-[16px] font-semibold w-full 
                                             h-[51.09px] lg:w-[251px] flex justify-center items-center hover:bg-[#505050] hover:border-[#19A20C] hover:border-[2px] hover:text-[#38E427] text-center">
                                             Speak to our expert
                                         </a>
@@ -843,33 +832,19 @@
                                 <!-- <h2>FCM Webinar</h2>
                                 <p></p> -->
                                 <div class="w-full grid sm:grid-cols-2 gap-y-5 gap-x-5 mb-[10px]">
-                                    <div class="form-group">
-                                        <!--Name-->
-                                        <label class="text-[#C4C4C4]">Surname</label>
-                                        <input type="text" maxlength="255" name="Name_surname" fieldType=7 placeholder="Surname" />
-                                    </div>
+    
                                     <div class="form-group">
                                         <label class="text-[#C4C4C4]">First Name</label>
                                         <input type="text" maxlength="255" name="Name_First" fieldType=7 placeholder="First Name" />
                                     </div>
-                                </div>
-                        
-                                <div class="w-full grid sm:grid-cols-2 gap-y-5 gap-x-5 mb-[10px]">
-                                    
                                     <div class="form-group">
                                         <label class="text-[#C4C4C4]">Last Name</label>
                                         <input type="text" maxlength="255" name="Name_Last" fieldType=7 placeholder="Last Name" />
                                     </div>
 
-                                    <div class="form-group">
-                                        <!--Single Line-->
-                                        <label class="text-[#C4C4C4]">Company</label>
-                                        <input  type="text" name="SingleLine" value="" fieldType=1 maxlength="255" placeholder="Company&#x20;Name" />
-                                    </div>
                                 </div>
-                                
+                        
                                 <div class="w-full grid sm:grid-cols-2 gap-y-5 gap-x-5 mb-[10px]">
-                                    
                                     <div class="form-group"> 
                                         <!--Email-->
                                         <label class="text-[#C4C4C4]"> Work Email 
@@ -878,44 +853,47 @@
                                         <input type="text" maxlength="255" name="Email" value="" fieldType=9 placeholder="Your&#x20;Email" />
                                         <!--Email-->
                                     </div>
+
+                                    <div class="form-group">
+                                        <!--Phone-->
+                                        <label class="text-[#C4C4C4]">Phone Number<em></em></label>
+                                        <div class="relative flex">
+                                            <div style="width: 80px; padding-right: 8px;">
+                                                <input type="text" compname="PhoneNumber_countrycodeval" name="PhoneNumber_countrycodeval" phoneFormat="1" maxlength="10"  id="international_PhoneNumber_countrycodeval" placeholder="+234"/>
+                                                <!-- <label>Code</label>  -->
+                                            </div>
+                                            <input type="text" compname="PhoneNumber" name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=true maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" placeholder="phone number" />
+                                            <!-- <label>Number</label>  -->
+                                        </div>
+                                    </div>  
+                                    
+                                </div>
+                                
+                                <div class="w-full grid sm:grid-cols-2 gap-y-5 gap-x-5 mb-[10px]">
+                                    
+                                    <div class="form-group">
+                                        <!--Single Line-->
+                                        <label class="text-[#C4C4C4]">Company</label>
+                                        <input  type="text" name="SingleLine" value="" fieldType=1 maxlength="255" placeholder="Company&#x20;Name" />
+                                    </div>
                                     <div class="form-group">
                                         <!--Single Line-->
                                         <label class="text-[#C4C4C4]">Location</label>
                                         <input  type="text" name="SingleLine1" value="" fieldType=1 maxlength="255" placeholder="City&#x20;or&#x20;State" />
                                     </div>
                                 </div>
-                        
-                                <div class="w-full grid sm:grid-cols-2 gap-y-5 gap-x-5 mb-[10px]">
                                     
-                                    <!-- <div class="form-group">
-                                        Phone--
-                                        <label class="text-[#C4C4C4]">Phone Number<em></em></label>
-                                        <div class="relative flex">
-                                            <div style="width: 166px;">
-                                                <input type="text" compname="PhoneNumber_countrycodeval" name="PhoneNumber_countrycodeval" phoneFormat="1" maxlength="10"  id="international_PhoneNumber_countrycodeval" placeholder=""/>
-                                                <label>Code</label>  --
-                                            </div>
-                                            <input type="text" compname="PhoneNumber" name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=true maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" placeholder="phone number" />
-                                            <label>Number</label>  --
-                                        </div>
-                                    </div>  -->
-                                    
-                                    <div class="form-group">
-                                        <label class="text-[#C4C4C4]" for="telephone">Phone Number</label>
-                                        <input type="tel" id="international_PhoneNumber_countrycodeval" placeholder="" name="telephone">
-                                    </div>
-
-                                    <div class="form-group">
-                                        <!--Dropdown-->
-                                        <label class="text-[#C4C4C4]">Category<em></em></label>
-                                        <select name="Dropdown">
-                                        <option selected="true" value="-Select-">Please select the category that best describes you</option>
-                                        <option value="Procurement&#x20;Officer&#x2f;Executives">Procurement Officer&#x2f;Executives</option>
-                                        <option value="Corporate&#x20;Traveller">Corporate Traveller</option>
-                                        <option value="Decision&#x20;Maker&#x2f;Stakeholders">Decision Maker&#x2f;Stakeholders</option>
-                                        <option value="Business&#x20;Professionals">Business Professionals</option>
-                                        </select>
-                                    </div>
+                                
+                                <div class="form-group mb-[10px]">
+                                    <!--Dropdown-->
+                                    <label class="text-[#C4C4C4]">Category<em></em></label>
+                                    <select name="Dropdown">
+                                    <option selected="true" value="-Select-">Please select the category that best describes you</option>
+                                    <option value="Procurement&#x20;Officer&#x2f;Executives">Procurement Officer&#x2f;Executives</option>
+                                    <option value="Corporate&#x20;Traveller">Corporate Traveller</option>
+                                    <option value="Decision&#x20;Maker&#x2f;Stakeholders">Decision Maker&#x2f;Stakeholders</option>
+                                    <option value="Business&#x20;Professionals">Business Professionals</option>
+                                    </select>
                                 </div>
                         
                                 
@@ -938,7 +916,7 @@
                         
                                 
                                 <!-- <button type="submit"><em>Submit</em></button> -->
-                            </form>     
+                            </form>    
                         </div>
 
                     </div>
